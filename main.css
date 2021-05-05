@@ -1,0 +1,254 @@
+/*common elements*/
+body {
+    font-size: 70%;
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    background:  rgb(114, 165, 95) url(img/coffeeBean.jpg) no-repeat fixed top center; 
+    padding: 0;
+    margin: 0;
+    -webkit-backdrop-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    background-size: 100% 100%;
+    -o-background-size:100% 100%;
+}
+
+header, nav, footer, section {
+    border: 1px solid #ccc;
+    text-align: center;
+    float: left;
+    width: 100%;
+    margin: 5px 0px; 
+}
+
+h1 {
+    color: black;
+    font-size: 3.0em;
+    margin: 0.5em 0 0.5em 0;
+    padding: 0;
+}
+
+h2 {
+    color: black;
+    font-size: 2em;
+    padding: 0px;
+    margin: 0.5em, 0 0.35em 0;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.4em;
+    color: black;
+    padding: 0px;
+    margin: 0px 0.5em 0.75em 0px;
+}
+
+
+div.clear {
+    clear:both;
+    font-size: 1%;
+}
+
+
+/*header*/
+header {
+    padding: 2.5em 0 0.5em;
+    margin: 0 0 2.0em;
+    background:  white  0px;
+}
+
+header h1 {
+    font-family: Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(114, 165, 95);
+    font-size: 8.0em;
+    letter-spacing: -0.04em;
+    margin: 0;
+}
+
+header h2 {
+    font-weight: 100;
+    font-size: 3em;
+    color: rgba(214, 8, 8, 0.877);
+    margin: -0.4em 0 0 1.0em;
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+}
+
+/*Nav bars*/
+nav {
+    color: rgb(119, 7, 7);
+    font-size: 1.7em;
+    letter-spacing: 0.04em;
+    padding: 1.4em 1.0em 0.5em;
+    margin: 1.0em 0;
+    background-color: rgb(230, 96, 96);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+}
+
+nav li a, nav li a:visited {
+    text-decoration: none;
+    color: #258b1b;
+    padding: 0.3em 0.6em;
+}
+
+nav li a:hover {
+    color: rgb(70, 168, 34);
+    background-color: rgba(252,251,243,0.75); 
+}
+
+#utilityMenu {
+    float: right;
+    margin: -1.5em 0 0 0;
+    padding: 0.35em;
+    height: 1.3em;
+}
+
+nav#utilityMenu li {
+    padding: 0 0.25em 0 0.2em;
+    vertical-align: middle;
+}
+
+nav#utilityMenu  ul li.acctNav a, nav#utilityMenu ul li.acctNav a:visited {
+    color: rgb(48, 133, 18);
+    text-decoration: none;
+    display: inline-block;
+    height: 1.3em;
+    padding: 0.5em;
+    margin: -0.4em 0 0 0;
+    font-size: 0.8em;    
+}
+
+nav#ulitityMenu li a, nav#utilityMenu li a:visited {
+    padding: 0;
+}
+
+nav#utilityMenu li a:hover {
+    background-color: transparent;
+}
+
+
+
+/*Top*/
+#top {
+    height: auto;
+    width: 100%;
+    margin: 0 5em 5px 5em;
+    background-color: rgb(230, 96, 96);
+    font-size: 2em;
+}
+
+section div.tops {
+    float: left;
+    position: relative;
+    width: auto;
+    margin: 2.0em;
+    padding: 2.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+}
+
+#middle{
+    background-color: transparent;
+    border: none;
+}
+
+/*Sidebars*/
+#sidebar {
+    width: 35%;
+    float: right;
+    height: auto; 
+    background-color:rgb(114, 165, 95)
+}
+
+/*Main Section*/
+#main {
+    width: 60%;
+    height: auto; 
+    background-color: rgb(114, 165, 95);
+}
+
+section #main {
+    background-color: rgba(252,251,243,0.7);
+    margin: 0 0 2.0rem;
+    padding: 1.5rem 0 2.0rem 1.5rem;
+    display: inline-block;
+    border-radius: 2em;
+}
+
+section div.panel {
+    float: left;
+    position: left;
+    width: 250px;
+    margin: 0 0.5em 2.0em 4.5em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+}
+
+section div.panel img.food {
+    width: 100%;
+}
+
+button {
+    color: #c64322;
+    background-color: #fff;
+    display: inline-block;
+    margin: 0 0.75em 0 0;
+    padding: 0.2em 0.5em;
+    border: 1px solid #c64322;
+    text-transform: uppercase;
+}
+
+button:hover {
+    background-color: #fbf3db;
+    border: 1px solid #745b2f;
+}
+
+/*Footer*/
+footer {
+    background-color: #c64322;
+    height: 1.0em;
+    font-size: 2.0em;
+    color: black;
+    text-align: center;
+    padding: 2.0em 2.0em;
+    
+}
+
+footer ul#menuFooter {
+    display: inline-block;
+    list-style: none;
+    margin: 0 0 0 0.6em;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 0.7em 0 0;
+    margin: 0;
+}
+
+footer ul li::before {
+    content: "| ";
+    padding-right: 0.7em;
+}
+
+footer a, footer a:visiter {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: black;
+    text-decoration: underline;
+}
